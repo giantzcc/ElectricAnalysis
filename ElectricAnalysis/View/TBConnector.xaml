@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="ElectricAnalysis.View.TBConnector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <DataGrid x:Name="pinTb" CanUserAddRows="False" IsReadOnly="True" HorizontalGridLinesBrush="Black" VerticalGridLinesBrush="Black"
+         HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="起始部位" Width="1*" Binding="{Binding StartPart}" ElementStyle="{StaticResource contentCenterStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="起始端子号" Width="1*" Binding="{Binding StartNum}" ElementStyle="{StaticResource contentCenterStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="末端部位" Width="1*" Binding="{Binding EndPart}" ElementStyle="{StaticResource contentCenterStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="末端端子号" Width="1*" Binding="{Binding EndNum}" ElementStyle="{StaticResource contentCenterStyle}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

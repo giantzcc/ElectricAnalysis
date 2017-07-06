@@ -1,0 +1,31 @@
+﻿<Window x:Class="ElectricAnalysis.View.OutPutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:cvt="clr-namespace:ElectricAnalysis.Converter"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="600" Height="800" Title="输出列表"
+        WindowStartupLocation="CenterOwner" Closing="Window_Closing">
+    <Window.Resources>
+        <cvt:CompareResultColorConvertor x:Key="rstColor"></cvt:CompareResultColorConvertor>
+    </Window.Resources>
+    <Grid>
+        <DataGrid ItemsSource="{Binding CFs}" IsReadOnly="True" CanUserAddRows="False" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="接口连接器" Width="1*" Binding="{Binding Part}" ElementStyle="{StaticResource contentCenterStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="端子号" Width="1*" Binding="{Binding Num}" ElementStyle="{StaticResource contentCenterStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="网络号" Width="1*" Binding="{Binding Equal}" ElementStyle="{StaticResource contentCenterStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="逻辑值" Width="1*" Binding="{Binding LogicValue}" ElementStyle="{StaticResource fontHighLightStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="实测值" Width="1*" Binding="{Binding RealValue}" ElementStyle="{StaticResource fontHighLightStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="比较" Width="1.5*" Binding="{Binding ComparedValue}" ElementStyle="{StaticResource contentCenterStyle}" FontSize="20">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" Value="{Binding ComparedValue, Converter={StaticResource rstColor}}"></Setter>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

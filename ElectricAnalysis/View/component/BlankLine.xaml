@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ElectricAnalysis.View.component.BlankLine"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="60" d:DesignWidth="150" Style="{StaticResource ComponentStyle}">
+    <Grid Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="1.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Path Style="{StaticResource powStyle}"></Path>
+        <Line VerticalAlignment="Center" HorizontalAlignment="Left" X1="0" X2="150" Style="{StaticResource LineStyle}" x:Name="rightLine"></Line>
+    </Grid>
+</UserControl>

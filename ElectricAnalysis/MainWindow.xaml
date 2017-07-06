@@ -1,0 +1,84 @@
+﻿<Window x:Class="ElectricAnalysis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ElectricAnalysis.Model"
+        xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=Xceed.Wpf.AvalonDock"
+        xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock"
+        xmlns:vi="clr-namespace:ElectricAnalysis.View"
+       Style="{StaticResource CustomWindowChrome}" Title="ElectricAnalysis" Height="800" Width="1050" WindowState="Normal" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="maingrid">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" FlowDirection="LeftToRight">
+                <Menu Grid.Row="0" Background="#D6DBE9" VerticalContentAlignment="Center" HorizontalAlignment="Left">
+                    <MenuItem Header="_导入" Width="40" Foreground="Black" Margin="10,5,0,5">
+                        <MenuItem Header="元件库文件" Command="{Binding ImportCellLibCmd}"/>
+                        <MenuItem Header="元件配置" Command="{Binding ImportCellConfigCmd}"/>
+                        <MenuItem Header="元件清单" Command="{Binding ImportGraphData}"/>
+                    </MenuItem>
+                    <MenuItem Header="_生成" Width="40" Foreground="Black" Margin="10,5,0,5">
+                    </MenuItem>
+                    <MenuItem Header="_清空" Width="40" Foreground="Black" Margin="10,5,0,5">
+                        <MenuItem Header="元件清单" Foreground="Black" Command="{Binding ClearCptRelationListCmd}"></MenuItem>
+                        <MenuItem Header="元件配置" Foreground="Black" Command="{Binding ClearCellConfigCmd}"></MenuItem>
+                        <MenuItem Header="元件库" Foreground="Black" Command="{Binding ClearCellLibCmd}"></MenuItem>
+                        <MenuItem Header="接口配置" Foreground="Black" Command="{Binding ClearLinkerCfgCmd}"></MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="_视图"  Width="40" Foreground="Black" Margin="10,5,0,5">
+                        <MenuItem Header="左1" Width="150" Foreground="Black" IsCheckable="True" IsChecked="True"/>
+                        <MenuItem Header="右1" Width="150" Foreground="Black">
+                            <MenuItem Header="右1.1" Width="120" Foreground="Black" IsCheckable="True" IsChecked="True"/>
+                            <MenuItem Header="右1.2" Width="120" Foreground="Black" IsCheckable="True" IsChecked="True"/>
+                        </MenuItem>
+                        <MenuItem Header="右2" Width="150" Foreground="Black" Margin="0,5,0,0">
+                            <MenuItem Header="右2.1" Width="120" Foreground="Black" IsCheckable="True" IsChecked="True"/>
+                            <MenuItem Header="右2.2" Width="120" Foreground="Black"  IsCheckable="True" IsChecked="True"/>
+                        </MenuItem>
+                        <MenuItem Header="保存布局" Width="150" Foreground="Black" Margin="0,5,0,0"/>
+                        <MenuItem Header="还原布局" Width="150" Foreground="Black" Margin="0,5,0,0"/>
+                    </MenuItem>
+                </Menu>
+                <ComboBox x:Name="modeBox" Style="{StaticResource newCombobox}" VerticalAlignment="Center" Margin="10,0,0,0" SelectedIndex="0" 
+                          IsEnabled="{Binding ElementName=beginBtn,Path=IsChecked}" ItemsSource="{Binding ModeNames}">
+                </ComboBox>
+                <ToggleButton x:Name="beginBtn" Margin="5,0,0,0" Style="{StaticResource startBtn}" 
+                              Command="{Binding RunCmd}" CommandParameter="{Binding ElementName=modeBox,Path=SelectedValue}"></ToggleButton>
+            </StackPanel>
+            <xcad:DockingManager x:Name="dockmanager" Grid.Row="1">
+                <xcad:DockingManager.Theme>
+                    <xcad:VS2010Theme>
+                    </xcad:VS2010Theme>
+                </xcad:DockingManager.Theme>
+                <xcad:LayoutRoot>
+                    <xcad:LayoutPanel Orientation="Horizontal">
+                        <xcad:LayoutAnchorablePane DockWidth="250">
+                            <xcad:LayoutAnchorable Title="资源管理器" ContentId="Lc1">
+                                <vi:ResourceManager x:Name="manager"></vi:ResourceManager>
+                            </xcad:LayoutAnchorable>
+                        </xcad:LayoutAnchorablePane>
+                        <xcad:LayoutPanel Orientation="Vertical" x:Name="middlePanel">
+                            <xcad:LayoutDocumentPaneGroup Orientation="Vertical">
+                                <xcad:LayoutDocumentPane x:Name="ShowPanel">
+                                </xcad:LayoutDocumentPane>
+                            </xcad:LayoutDocumentPaneGroup>
+                            <xcad:LayoutAnchorablePane DockMinHeight="200">
+                                <xcad:LayoutAnchorable Title="消息" ContentId="Lc3" x:Name="msglist">
+                                    <TextBox IsReadOnly="True" Text="{Binding Output}" VerticalScrollBarVisibility="Auto" x:Name="msgbox"/>
+                                </xcad:LayoutAnchorable>
+                                <xcad:LayoutAnchorable Title="视图" ContentId="Lc4" x:Name="branchView">
+                                    <ScrollViewer HorizontalScrollBarVisibility="Auto" Margin="0" Background="White">
+                                        <StackPanel x:Name="branchPanel" Orientation="Horizontal" FlowDirection="LeftToRight" HorizontalAlignment="Center">
+                                        </StackPanel>
+                                    </ScrollViewer>
+                                </xcad:LayoutAnchorable>
+                            </xcad:LayoutAnchorablePane>
+                        </xcad:LayoutPanel>
+                    </xcad:LayoutPanel>
+                </xcad:LayoutRoot>
+            </xcad:DockingManager>
+        </Grid>
+    </Grid>
+</Window>

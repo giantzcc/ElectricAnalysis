@@ -1,0 +1,330 @@
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe.config
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis.csprojResolveAssemblyReference.cache
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\App.g.cs
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.cache
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\bin\Debug\ElectricAnalysis.pdb
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\MainWindow.baml
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\MainWindow.g.cs
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis.g.resources
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis.Properties.Resources.resources
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis.csproj.GenerateResource.Cache
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis.exe
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis.pdb
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.lref
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.baml
+F:\电气柜项目\ElectricAnalysis\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe.config
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.exe
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.pdb
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.csprojResolveAssemblyReference.cache
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\MainWindow.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ResourceManager.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\App.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.cache
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.lref
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\bin\Debug\ElectricAnalysis.pdb
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\MainWindow.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ResourceManager.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.g.resources
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.Properties.Resources.resources
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.csproj.GenerateResource.Cache
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\ButtonStyle.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\DataGridStyle.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\MenuItemStyle.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\Shared.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\TreeView.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\WindowStyle.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\App.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TestBranchList.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TestBranchList.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ConTactorLib.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ConTactorLib.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\WaitingBar.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\WaitingBar.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\IndicatorLib.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\IndicatorLib.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TBConnector.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TBConnector.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ComponentLib.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ComponentLib.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\VoltageSetList.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\VoltageSetList.g.cs
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\CustomWindow.baml
+F:\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\CustomWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe.config
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\bin\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\ButtonStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\CustomWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\DataGridStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\MenuItemStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\Shared.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\TreeView.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\WindowStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ComponentLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\IndicatorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TBConnector.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TestBranchList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\VoltageSetList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\WaitingBar.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\App.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\MainWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\CustomWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ComponentLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ConTactorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\IndicatorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ResourceManager.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TBConnector.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\TestBranchList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\VoltageSetList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\WaitingBar.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\App.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.cache
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.lref
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\MainWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ConTactorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\ResourceManager.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.g.resources
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.Properties.Resources.resources
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.csproj.GenerateResource.Cache
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Coil.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Diode.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Terminal.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Coil.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Diode.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Terminal.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Breaker.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Breaker.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Indicator.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Indicator.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Contact.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Contact.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Capacitance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Capacitance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\ElectricAnalysis.csprojResolveAssemblyReference.cache
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Resistance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Resistance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Switch.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\component\Switch.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\WireGraph.baml
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\View\WireGraph.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis - 副本\ElectricAnalysis\obj\Debug\Theme\ComponentStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe.config
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.csprojResolveAssemblyReference.cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ButtonStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ComponentStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\CustomWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\DataGridStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\MenuItemStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\Shared.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\TreeView.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\WindowStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\ComponentLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Breaker.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Capacitance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Contact.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Coil.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Diode.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Indicator.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Resistance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Switch.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Terminal.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\IndicatorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\TBConnector.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\TestBranchList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\VoltageSetList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\WaitingBar.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\WireGraph.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\App.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\MainWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\Theme\CustomWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\ComponentLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Breaker.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Capacitance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Contact.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Coil.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Diode.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Indicator.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Resistance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Switch.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Terminal.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\ConTactorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\IndicatorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\ResourceManager.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\TBConnector.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\TestBranchList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\VoltageSetList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\WaitingBar.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\WireGraph.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\App.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.lref
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\MainWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\ConTactorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\View\ResourceManager.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.g.resources
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.Properties.Resources.resources
+F:\项目资料\电气柜项目\ElectricAnalysis(第二版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.csproj.GenerateResource.Cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe.config
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.csprojResolveAssemblyReference.cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ButtonStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ComponentStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\CustomWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\DataGridStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\MenuItemStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\Shared.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\TreeView.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\WindowStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\ComponentLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Breaker.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Capacitance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Contact.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Coil.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Diode.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Indicator.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Resistance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Switch.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Terminal.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\IndicatorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\TBConnector.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\TestBranchList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\VoltageSetList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\WaitingBar.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\WireGraph.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\App.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\MainWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\CustomWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\ComponentLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Breaker.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Capacitance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Contact.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Coil.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Diode.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Indicator.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Resistance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Switch.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Terminal.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\ConTactorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\IndicatorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\ResourceManager.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\TBConnector.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\TestBranchList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\VoltageSetList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\WaitingBar.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\WireGraph.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\App.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.lref
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\MainWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\ConTactorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\ResourceManager.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.g.resources
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.Properties.Resources.resources
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.csproj.GenerateResource.Cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\BlankLine.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\BlankLine.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\VerticalLine.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\VerticalLine.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\StandardContact.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\component\StandardContact.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ComboBox.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\OutPutView.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第三版图纸功能)\ElectricAnalysis\obj\Debug\View\OutPutView.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe.config
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.csprojResolveAssemblyReference.cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ButtonStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ComboBox.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\CustomWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\DataGridStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\MenuItemStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\Shared.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\TreeView.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\WindowStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\ComponentLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\BlankLine.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Breaker.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Capacitance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Coil.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Diode.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Indicator.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Resistance.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\StandardContact.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Switch.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Terminal.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\VerticalLine.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\IndicatorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\TBConnector.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\TestBranchList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\VoltageSetList.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\WaitingBar.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\WireGraph.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\App.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\MainWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\CustomWindow.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\ComponentLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\BlankLine.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Breaker.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Capacitance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Coil.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Diode.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Indicator.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Resistance.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\StandardContact.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Switch.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\Terminal.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\component\VerticalLine.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\ConTactorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\IndicatorLib.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\LinkerConfigWnd.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\OutPutView.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\ResourceManager.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\TBConnector.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\TestBranchList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\VoltageSetList.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\WaitingBar.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\WireGraph.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\App.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis_MarkupCompile.lref
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.exe
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\bin\Debug\ElectricAnalysis.pdb
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\MainWindow.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\Theme\ComponentStyle.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\ConTactorLib.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\OutPutView.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\ResourceManager.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.g.resources
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.Properties.Resources.resources
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\ElectricAnalysis.csproj.GenerateResource.Cache
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\PowSystem.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\PowSystem.g.cs
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\CptRelation.baml
+F:\项目资料\电气柜项目\ElectricAnalysis(第四版图纸功能)\ElectricAnalysis\obj\Debug\View\CptRelation.g.cs

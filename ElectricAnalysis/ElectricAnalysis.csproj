@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C6F1266-442C-4EBE-958C-75B02DE8D25D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ElectricAnalysis</RootNamespace>
+    <AssemblyName>ElectricAnalysis</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.2.0.37226, Culture=neutral, PublicKeyToken=5f873c45e98af8a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GalaSoft.MvvmLight.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ADOX, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.ADOX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=2.0.2000.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.resources, Version=2.0.2000.0, Culture=zh-Hans, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Xceed.Wpf.AvalonDock.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=2.0.2000.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=2.0.2000.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Communication\CanCommunication.cs" />
+    <Compile Include="Communication\CanInfoAbs.cs" />
+    <Compile Include="Communication\MessageProcess.cs" />
+    <Compile Include="Communication\SendInstructions.cs" />
+    <Compile Include="Converter\CompareResultColorConvertor.cs" />
+    <Compile Include="Converter\ComponentColorConvertor.cs" />
+    <Compile Include="Converter\ComponentLabelColorConvertor.cs" />
+    <Compile Include="Converter\ComponentVisibleConvertor.cs" />
+    <Compile Include="DAL\CanBusApi.cs" />
+    <Compile Include="DAL\Dao\ComponentConfigDao.cs" />
+    <Compile Include="DAL\Dao\GraphDao.cs" />
+    <Compile Include="DAL\Dao\TerminalRelationsDao.cs" />
+    <Compile Include="FaultDiagnosis\ComponentFault.cs" />
+    <Compile Include="Graph\INotifyComponentChanged.cs" />
+    <Compile Include="Graph\ISimulation.cs" />
+    <Compile Include="Graph\Simulation.cs" />
+    <Compile Include="Graph\SimulationLogicException.cs" />
+    <Compile Include="Model\AppProject.cs" />
+    <Compile Include="Model\Authority\ModeManager.cs" />
+    <Compile Include="Model\BranchNet.cs" />
+    <Compile Include="Graph\ComponentVMObserver.cs" />
+    <Compile Include="Graph\DigraphBuilder.cs" />
+    <Compile Include="Model\LogicTest\LogicCircuit.cs" />
+    <Compile Include="Model\LogicTest\SequenceGenerator.cs" />
+    <Compile Include="Model\Result\CFDisplay.cs" />
+    <Compile Include="Model\Result\CFPair.cs" />
+    <Compile Include="Test\TNodeTest.cs" />
+    <Compile Include="Util\Dijkstra.cs" />
+    <Compile Include="Model\GndTestNet.cs" />
+    <Compile Include="Model\IConvertToTable.cs" />
+    <Compile Include="Model\LinkerConfig.cs" />
+    <Compile Include="Model\LogicTestNet.cs" />
+    <Compile Include="Model\LoopNet.cs" />
+    <Compile Include="Model\NormalTestNet.cs" />
+    <Compile Include="Model\TestNetBase.cs" />
+    <Compile Include="Model\Linker.cs" />
+    <Compile Include="Model\LogicNet.cs" />
+    <Compile Include="Model\TestBox.cs" />
+    <Compile Include="Model\VCCTestNet.cs" />
+    <Compile Include="Theme\CustomWindow.xaml.cs">
+      <DependentUpon>CustomWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\DijkstraUtil.cs" />
+    <Compile Include="ViewModel\ComponentViewModel.cs" />
+    <Compile Include="ViewModel\LinkerConfigViewModel.cs" />
+    <Compile Include="ViewModel\ResourceViewModel.cs" />
+    <Compile Include="ViewModel\TestBranchViewModel.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\CellConfig.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\CellLibConfig.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\CellListConfig.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\CFToGndGraph.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\CompleteGraph.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\Config.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\ConTactorLibDisplay.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\CptDisplay.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\CptRelationDisplay.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\GndTestGenerator.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\GraphGenerator.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\GraphType.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\IndicatorLibDisplay.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\Itemvm.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\LinkerCfg.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\LinkerCfgGenerator.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\LogicLoopGenerator.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\LogicTestGenerator.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\MenuType.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\NormalTestGenerator.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\Operation.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\RelayLibDisplay.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\Resource.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\TBDisplay.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\VccTestGenerator.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\VccToCFGraph.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\VccToGndGraph.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\VoltDisplay.cs" />
+    <Compile Include="View\ComponentLib.xaml.cs">
+      <DependentUpon>ComponentLib.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\BranchFactory.cs" />
+    <Compile Include="View\component\BlankLine.xaml.cs">
+      <DependentUpon>BlankLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\Breaker.xaml.cs">
+      <DependentUpon>Breaker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\Capacitance.xaml.cs">
+      <DependentUpon>Capacitance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\Coil.xaml.cs">
+      <DependentUpon>Coil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\Diode.xaml.cs">
+      <DependentUpon>Diode.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\ICloneComponent.cs" />
+    <Compile Include="View\component\Indicator.xaml.cs">
+      <DependentUpon>Indicator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\Resistance.xaml.cs">
+      <DependentUpon>Resistance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\StandardContact.xaml.cs">
+      <DependentUpon>StandardContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\Switch.xaml.cs">
+      <DependentUpon>Switch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\Terminal.xaml.cs">
+      <DependentUpon>Terminal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\component\VerticalLine.xaml.cs">
+      <DependentUpon>VerticalLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ConTactorLib.xaml.cs">
+      <DependentUpon>ConTactorLib.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CptRelation.xaml.cs">
+      <DependentUpon>CptRelation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\IndicatorLib.xaml.cs">
+      <DependentUpon>IndicatorLib.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LinkerConfigWnd.xaml.cs">
+      <DependentUpon>LinkerConfigWnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NativeMethods.cs" />
+    <Compile Include="View\OutPutView.xaml.cs">
+      <DependentUpon>OutPutView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PowSystem.xaml.cs">
+      <DependentUpon>PowSystem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ResourceManager.xaml.cs">
+      <DependentUpon>ResourceManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TBConnector.xaml.cs">
+      <DependentUpon>TBConnector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TestBranchList.xaml.cs">
+      <DependentUpon>TestBranchList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VoltageSetList.xaml.cs">
+      <DependentUpon>VoltageSetList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WaitingBar.xaml.cs">
+      <DependentUpon>WaitingBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WindowResizer.cs" />
+    <Compile Include="View\WireGraph.xaml.cs">
+      <DependentUpon>WireGraph.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ExcelOperation.cs" />
+    <Compile Include="DAL\SerializeData.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Theme\ButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\ComboBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Theme\ComponentStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Theme\CustomWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\DataGridStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\MenuItemStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\Shared.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\TreeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\WindowStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ComponentLib.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\BlankLine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Breaker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Capacitance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Coil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Diode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Indicator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Resistance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\StandardContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Switch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\Terminal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\component\VerticalLine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ConTactorLib.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CptRelation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\IndicatorLib.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LinkerConfigWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OutPutView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PowSystem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ResourceManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TBConnector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TestBranchList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VoltageSetList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WaitingBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\WireGraph.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Comparers.cs" />
+    <Compile Include="Model\Configuration.cs" />
+    <Compile Include="Model\NamesManage.cs" />
+    <Compile Include="Model\OriginCell.cs" />
+    <Compile Include="Model\TestBranch.cs" />
+    <Compile Include="Model\TNode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Image\download.png" />
+    <Resource Include="Image\title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\resource.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\download.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\component.png" />
+    <Resource Include="Image\lamp.png" />
+    <Resource Include="Image\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\linker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\graph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\mag.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

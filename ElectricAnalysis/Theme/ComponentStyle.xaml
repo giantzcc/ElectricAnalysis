@@ -1,0 +1,217 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+                    xmlns:cvt="clr-namespace:ElectricAnalysis.Converter">
+    <!--值转换器-->
+    <cvt:ComponentColorConvertor x:Key="cptColorCvt"></cvt:ComponentColorConvertor>
+    <cvt:ComponentLabelColorConvertor x:Key="cptlabelColorCvt"></cvt:ComponentLabelColorConvertor>
+    <cvt:ComponentVisibleConvertor x:Key="visibleCvt"></cvt:ComponentVisibleConvertor>
+    <cvt:BreakActionVisibleConvertor x:Key="breakActionCvt"></cvt:BreakActionVisibleConvertor>
+    <cvt:ConnectActionVisibleConvertor x:Key="connectActionCvt"></cvt:ConnectActionVisibleConvertor>
+
+    <Style TargetType="UserControl" x:Key="ComponentStyle">
+        <Setter Property="Width" Value="{Binding Width}"></Setter>
+        <Setter Property="Height" Value="{Binding Height}"></Setter>
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"></Setter>
+        <Setter Property="ContextMenu">
+            <Setter.Value>
+                <ContextMenu DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+                    <MenuItem Header="手动切换" Command="{Binding ManualBreak}"></MenuItem>
+                    <MenuItem Header="注入s-a-0故障" Command="{Binding SetFault0}"></MenuItem>
+                    <MenuItem Header="注入s-a-1故障" Command="{Binding SetFault1}"></MenuItem>
+                    <MenuItem Header="撤销故障" Command="{Binding ResetFault}"></MenuItem>
+                </ContextMenu>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <ControlTemplate TargetType="Button" x:Key="LabelBtn">
+        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </ControlTemplate>
+    <Style TargetType="Button" x:Key="Label1">
+        <Setter Property="Template" Value="{StaticResource LabelBtn}"></Setter>
+        <Setter Property="FontSize" Value="10"></Setter>
+        <Setter Property="Grid.Row" Value="0"></Setter>
+        <Setter Property="Content" Value="{Binding Label1}"></Setter>
+        <Setter Property="Foreground" Value="{Binding HightlightLabel1, Converter={StaticResource cptlabelColorCvt}}"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+        <Setter Property="Margin" Value="10,0,0,-20"></Setter>
+        <Setter Property="Command" Value="{Binding LabelClick}"></Setter>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Self},Path=Content}"></Setter>
+        <Setter Property="ContextMenu">
+            <Setter.Value>
+                <ContextMenu DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+                    <MenuItem Header="标记网络号" Command="{Binding LabelClick}" CommandParameter="{Binding Label1}"></MenuItem>
+                    <MenuItem Header="查看等效节点" Command="{Binding ShowAllLabels}" CommandParameter="{Binding Label1}"></MenuItem>
+                    <MenuItem Header="施加电压" Command="{Binding PowUp}" CommandParameter="{Binding Label1,UpdateSourceTrigger=PropertyChanged}"></MenuItem>
+                    <MenuItem Header="撤销电压" Command="{Binding PowDown}" CommandParameter="{Binding Label1,UpdateSourceTrigger=PropertyChanged}"></MenuItem>
+                </ContextMenu>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="Button" x:Key="Label2">
+        <Setter Property="Template" Value="{StaticResource LabelBtn}"></Setter>
+        <Setter Property="FontSize" Value="10"></Setter>
+        <Setter Property="Grid.Row" Value="0"></Setter>
+        <Setter Property="Content" Value="{Binding Label2}"></Setter>
+        <Setter Property="Foreground" Value="{Binding HightlightLabel2, Converter={StaticResource cptlabelColorCvt}}"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+        <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+        <Setter Property="Margin" Value="0,0,10,-20"></Setter>
+        <Setter Property="Command" Value="{Binding LabelClick}"></Setter>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Self},Path=Content}"></Setter>
+        <Setter Property="ContextMenu">
+            <Setter.Value>
+                <ContextMenu DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+                    <MenuItem Header="标记网络号" Command="{Binding LabelClick}" CommandParameter="{Binding Label2}"></MenuItem>
+                    <MenuItem Header="查看等效节点" Command="{Binding ShowAllLabels}" CommandParameter="{Binding Label2}"></MenuItem>
+                    <MenuItem Header="施加电压" Command="{Binding PowUp}" CommandParameter="{Binding Label2}"></MenuItem>
+                    <MenuItem Header="撤销电压" Command="{Binding PowDown}" CommandParameter="{Binding Label2}"></MenuItem>
+                </ContextMenu>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="ComponentName">
+        <Setter Property="Text" Value="{Binding Name}"></Setter>
+        <Setter Property="Foreground" Value="{Binding State, Converter={StaticResource cptColorCvt}}"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+    </Style>
+    <Style TargetType="Line" x:Key="LineStyle">
+        <Setter Property="Stroke" Value="{Binding State, Converter={StaticResource cptColorCvt}}"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+        <Setter Property="Grid.Row" Value="1"></Setter>
+    </Style>
+    <Style TargetType="Path" x:Key="PathStyle">
+        <Setter Property="Stroke" Value="{Binding State, Converter={StaticResource cptColorCvt}}"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+    </Style>
+    <Style TargetType="Ellipse" x:Key="EllipseStyle">
+        <Setter Property="Stroke" Value="{Binding State, Converter={StaticResource cptColorCvt}}"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+    </Style>
+    <Style TargetType="Rectangle" x:Key="RectangleStyle">
+        <Setter Property="Stroke" Value="{Binding State, Converter={StaticResource cptColorCvt}}"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+    </Style>
+    <!--加电标记-->
+    <PathGeometry x:Key="powMark">
+        <PathGeometry.Figures>
+            <PathFigureCollection>
+                <PathFigure StartPoint="5,20">
+                    <PathFigure.Segments>
+                        <PathSegmentCollection>
+                            <LineSegment Point="5,37.5"></LineSegment>
+                        </PathSegmentCollection>
+                    </PathFigure.Segments>
+                </PathFigure>
+                <PathFigure StartPoint="0,10">
+                    <PathFigure.Segments>
+                        <PathSegmentCollection>
+                            <LineSegment Point="5,20"></LineSegment>
+                            <LineSegment Point="10,10"></LineSegment>
+                        </PathSegmentCollection>
+                    </PathFigure.Segments>
+                </PathFigure>
+            </PathFigureCollection>
+        </PathGeometry.Figures>
+    </PathGeometry>
+    <Style TargetType="Path" x:Key="powStyle">
+        <Setter Property="Stroke" Value="Red"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+        <Setter Property="Visibility" Value="{Binding HasPow,Converter={StaticResource visibleCvt}}"></Setter>
+        <Setter Property="Grid.RowSpan" Value="2"></Setter>
+        <Setter Property="Data" Value="{StaticResource powMark}"></Setter>
+    </Style>
+    <!--触点动作标记-->
+    <!--触点闭合动作-->
+    <Style TargetType="Path" x:Key="CloseActionStyle">
+        <Setter Property="Stroke" Value="#FF74EA10"></Setter>
+        <Setter Property="StrokeThickness" Value="2"></Setter>
+        <Setter Property="Margin" Value="0,0,15,0"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+        <Setter Property="Visibility" Value="{Binding HasAction,Converter={StaticResource connectActionCvt}}"></Setter>
+        <Setter Property="Data">
+            <Setter.Value>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigureCollection>
+                            <PathFigure StartPoint="5,0">
+                                <PathFigure.Segments>
+                                    <PathSegmentCollection>
+                                        <LineSegment Point="5,14"></LineSegment>
+                                    </PathSegmentCollection>
+                                </PathFigure.Segments>
+                            </PathFigure>
+                            <PathFigure StartPoint="0,9">
+                                <PathFigure.Segments>
+                                    <PathSegmentCollection>
+                                        <LineSegment Point="5,14"></LineSegment>
+                                        <LineSegment Point="10,9"></LineSegment>
+                                    </PathSegmentCollection>
+                                </PathFigure.Segments>
+                            </PathFigure>
+                        </PathFigureCollection>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--触点断开动作-->
+    <Style TargetType="Path" x:Key="OpenActionStyle">
+        <Setter Property="Stroke" Value="#FF74EA10"></Setter>
+        <Setter Property="StrokeThickness" Value="2"></Setter>
+        <Setter Property="Margin" Value="0,0,15,0"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+        <Setter Property="Visibility" Value="{Binding HasAction,Converter={StaticResource breakActionCvt}}"></Setter>
+        <Setter Property="Data">
+            <Setter.Value>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigureCollection>
+                            <PathFigure StartPoint="5,0">
+                                <PathFigure.Segments>
+                                    <PathSegmentCollection>
+                                        <LineSegment Point="5,14"></LineSegment>
+                                    </PathSegmentCollection>
+                                </PathFigure.Segments>
+                            </PathFigure>
+                            <PathFigure StartPoint="0,5">
+                                <PathFigure.Segments>
+                                    <PathSegmentCollection>
+                                        <LineSegment Point="5,0"></LineSegment>
+                                        <LineSegment Point="10,5"></LineSegment>
+                                    </PathSegmentCollection>
+                                </PathFigure.Segments>
+                            </PathFigure>
+                        </PathFigureCollection>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--断路器按钮-->
+    <Style TargetType="Button" x:Key="breaker">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Line X1="0" X2="62" Y1="22.5" Y2="22.5" Style="{StaticResource LineStyle}"></Line>
+                        <Line X1="88" X2="150" Y1="22.5" Y2="22.5" Style="{StaticResource LineStyle}" x:Name="rightLine"></Line>
+                        <Line X1="62" X2="62" Y1="22.5" Y2="13" Style="{StaticResource LineStyle}"></Line>
+                        <Line X1="88" X2="58" Y1="22.5" Y2="15" Style="{StaticResource LineStyle}" x:Name="closeLine"></Line>
+                        <Line X1="88" X2="60" Y1="22.5" Y2="8" Style="{StaticResource LineStyle}"
+              Visibility="{Binding HasAction,Converter={StaticResource breakActionCvt}}" x:Name="openLine"></Line>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger SourceName="openLine" Property="Visibility" Value="Visible">
+                            <Setter TargetName="closeLine" Property="Visibility" Value="Hidden"></Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Grid.Row" Value="1"></Setter>
+        <Setter Property="Command" Value="{Binding ManualBreak}"></Setter>
+    </Style>
+</ResourceDictionary>
