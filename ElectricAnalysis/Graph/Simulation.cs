@@ -80,6 +80,10 @@ namespace ElectricAnalysis.Graph
         private List<List<INotifyComponentChanged>> cfToVccRoutes = new List<List<INotifyComponentChanged>>();//CF到Vcc的所有回路
         private List<List<INotifyComponentChanged>> vccConductRoutes = new List<List<INotifyComponentChanged>>();//总正导通的支路
         private List<List<INotifyComponentChanged>> cfConductRoutes = new List<List<INotifyComponentChanged>>();//测试点导通的支路
+        public ISet<INotifyComponentChanged> AllCpts
+        {
+            get { return allCpts; }
+        }
         public List<List<INotifyComponentChanged>> VccToGndRoutes
         {
             get

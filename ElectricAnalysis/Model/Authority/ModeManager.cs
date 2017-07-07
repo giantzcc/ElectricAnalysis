@@ -1,6 +1,7 @@
 ﻿using ElectricAnalysis.Graph;
 using ElectricAnalysis.Model.LogicTest;
 using ElectricAnalysis.Model.Result;
+using ElectricAnalysis.Test;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -82,7 +83,10 @@ namespace ElectricAnalysis.Model.Authority
                 case Mode.AutoTest:
                     {
                         SequenceGenerator squence = new SequenceGenerator();
-                        squence.validate();
+                        squence.generate();
+                        squence.compressTestBranch();
+                        ResultTest test = new ResultTest(squence);
+                        test.testBranchPercent();
                         break;
                     }
                 case Mode.ManualTest:

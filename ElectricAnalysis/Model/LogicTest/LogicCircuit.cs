@@ -21,10 +21,16 @@ namespace ElectricAnalysis.Model.LogicTest
 
         #region Field Property
         private List<INotifyComponentChanged> circuit;
+        private List<LogicCircuit> additional = new List<LogicCircuit>();
         private TNode cf;
         private ISet<string> openContacts = new HashSet<string>();//常闭的触点
         private ISet<INotifyComponentChanged> components = new HashSet<INotifyComponentChanged>();//所有的被测试元件
-        private string pow;//加电点
+        private List<string> pows;//条件支路的加电点
+        private string pow;//被测支路的加电点
+        public ISet<INotifyComponentChanged> Components
+        {
+            get { return components; }
+        }
         public TNode CF
         {
             get { return cf; }
@@ -37,9 +43,18 @@ namespace ElectricAnalysis.Model.LogicTest
         {
             get { return pow; }
         }
+        public List<string> Pows
+        {
+            get { return pows; }
+            set { pows = value; }
+        }
         public List<INotifyComponentChanged> Circuit
         {
             get { return circuit; }
+        }
+        public List<LogicCircuit> Additional
+        {
+            get { return additional; }
         }
         #endregion
 
@@ -62,7 +77,6 @@ namespace ElectricAnalysis.Model.LogicTest
         public void saveTestComponents(List<List<INotifyComponentChanged>> conductRoutes)
         {
             conductRoutes.ForEach(p => p.ForEach(q => components.Add(q)));
-            circuit.ForEach(p => components.Add(p));
         }
         #endregion
     }

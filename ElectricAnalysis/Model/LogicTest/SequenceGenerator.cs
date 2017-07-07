@@ -26,15 +26,44 @@ namespace ElectricAnalysis.Model.LogicTest
         private List<List<INotifyComponentChanged>> cfToGndRoutes = new List<List<INotifyComponentChanged>>();//CF到Gnd的所有的回路
         private List<List<INotifyComponentChanged>> cfToVccRoutes = new List<List<INotifyComponentChanged>>();//CF到Vcc的所有回路
 
-        private List<LogicCircuit> testBranch = new List<LogicCircuit>();//待测的支路
+        private List<LogicCircuit> canTestBranch;//可测的支路
+        private IReadOnlyCollection<LogicCircuit> testBranch;//待测的支路
         private IDictionary<string, List<List<string>>> powCoils = new Dictionary<string, List<List<string>>>();//线圈得电的电压注入点
+        public IReadOnlyCollection<LogicCircuit> TestBranch
+        {
+            get { return testBranch; }
+        }
         #endregion
 
         #region Function
         /// <summary>
-        /// 确定并验证待测支路的可测性
+        /// 压缩测试集
         /// </summary>
-        public void validate()
+        public void compressTestBranch()
+        {
+            List<LogicCircuit> cps =new List<LogicCircuit>(canTestBranch);
+            ISet<LogicCircuit> left = new HashSet<LogicCircuit>();
+            foreach (var cirt in cps)
+            {
+                if (!left.Contains(cirt))
+                {
+                    foreach (var br in cps)
+                    {
+                        if (cirt != br && !left.Contains(br) && br.Components.All(p => cirt.Components.Contains(p)))
+                        {
+                            cirt.Additional.Add(br);
+                            cirt.Additional.AddRange(br.Additional);
+                            left.Add(br);
+                            canTestBranch.Remove(br);
+                        }
+                    }
+                }
+            }
+        }
+        /// <summary>
+        /// 找出所有的可测支路及其测试方案
+        /// </summary>
+        public void generate()
         {
             Simulation sim = Simulation.getInstance();
             CFDisplay cfSrc = new CFDisplay();
@@ -56,34 +85,81 @@ namespace ElectricAnalysis.Model.LogicTest
                 bool success = false;
                 foreach (List<string> pows in cbs)
                 {
-                    try
-                    {
-                        for (int i = pows.Count - 1; i >= 0; i--)
-                            sim.powUp(pows[i]);
-                        sim.powUp(cirt.Pow);
-                        sim.updateOutPutSource();
-                    }
-                    catch (SimulationLogicException e)
-                    {
-                        continue;
-                    }
-                    finally
-                    {
-                        sim.resetSimulation();
-                    }
-                    string val = cfSrc.getValue(cirt.CF, sim.srcType);
-                    if (val == CFPair.HIGH)
+                    if (validate(sim, pows, cirt))
                     {
                         success = true;
-                        cirt.saveTestComponents(sim.VccConductRoutes);
-                        cirt.saveTestComponents(sim.CfConductRoutes);
                         break;
                     }
                 }
                 if (!success)
                     cannotTest.Add(cirt);
             }
+            List<LogicCircuit> all = new List<LogicCircuit>(testBranch);
+            all.RemoveAll(p => cannotTest.Contains(p));
+            canTestBranch = all;
+        }
+        /// <summary>
+        /// 一组输入检测多个输出点是否有输出
+        /// </summary>
+        private bool validate(Simulation sim, List<string> pows, List<TNode> cfs)
+        {
+            bool success = true;
+            try
+            {
+                for (int i = pows.Count - 1; i >= 0; i--)
+                    sim.powUp(pows[i]);
+                sim.updateOutPutSource();
+                foreach (TNode cf in cfs)
+                {
+                    string val = sim.OutPuts.getValue(cf, sim.srcType);
+                    if (val != CFPair.HIGH)
+                    {
+                        success = false;
+                        break;
+                    }
+                }
+                
+            }
+            catch (SimulationLogicException e)
+            {
 
+            }
+            finally
+            {
+                sim.resetSimulation();
+            }
+            return success;
+        }
+        /// <summary>
+        /// 检测指定待测支路输出点是否有输出
+        /// </summary>
+        private bool validate(Simulation sim, List<string> pows, LogicCircuit cirt)
+        {
+            bool success = false;
+            try
+            {
+                for (int i = pows.Count - 1; i >= 0; i--)
+                    sim.powUp(pows[i]);
+                sim.powUp(cirt.Pow);
+                sim.updateOutPutSource();
+                string val = sim.OutPuts.getValue(cirt.CF, sim.srcType);
+                if (val == CFPair.HIGH)
+                {
+                    success = true;
+                    cirt.saveTestComponents(sim.VccConductRoutes);
+                    cirt.saveTestComponents(sim.CfConductRoutes);
+                    cirt.Pows = pows;
+                }
+            }
+            catch (SimulationLogicException e)
+            {
+
+            }
+            finally
+            {
+                sim.resetSimulation();
+            }
+            return success;
         }
 
         private void load()
@@ -98,6 +174,7 @@ namespace ElectricAnalysis.Model.LogicTest
         /// </summary>
         private void loadTestBranch()
         {
+            List<LogicCircuit> testBranch = new List<LogicCircuit>();
             AppProject app = AppProject.GetInstance();
             foreach (var route in cfToVccRoutes)
             {
@@ -122,6 +199,24 @@ namespace ElectricAnalysis.Model.LogicTest
                     }
                 }
             }
+            foreach (var route in cfToGndRoutes)
+            {
+                var cpt = route.LastOrDefault(p => p.CptType == ViewModel.ComponentType.ContactOpen);
+                if (cpt != null)
+                {
+                    int index = route.IndexOf(cpt);
+                    for (int i = index; i >= 0; i--)
+                    {
+                        TNode cf = app.IsCFEqual(route[i].getHeadNode().Equal);
+                        if (cf != null && cf.Equal != "GND")
+                        {
+                            testBranch.Add(new LogicCircuit(route.GetRange(i, route.Count - i), cf, route[route.Count-1].getHeadNode().Equal));
+                            break;
+                        }
+                    }
+                }
+            }
+            this.testBranch = testBranch.AsReadOnly();
         }
         /// <summary>
         /// 整理出线圈对应的加电点

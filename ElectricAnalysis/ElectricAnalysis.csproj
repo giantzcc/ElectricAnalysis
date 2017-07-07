@@ -118,6 +118,7 @@
     <Compile Include="Model\LogicTest\SequenceGenerator.cs" />
     <Compile Include="Model\Result\CFDisplay.cs" />
     <Compile Include="Model\Result\CFPair.cs" />
+    <Compile Include="Test\ResultTest.cs" />
     <Compile Include="Test\TNodeTest.cs" />
     <Compile Include="Util\Dijkstra.cs" />
     <Compile Include="Model\GndTestNet.cs" />
