@@ -53,7 +53,15 @@ namespace ElectricAnalysis
             Messenger.Default.Register<Object>(this, "GraphCanNotClose", GraphCanNotClose);
             Messenger.Default.Register<object>(this, "ExitWorkMode", RecoverPages);
             Messenger.Default.Register<CFDisplay>(this, "ShowOutPutValue", ShowOutPutValue);
+            Messenger.Default.Register<object>(this, "PowBox", showPowBox);
             this.Resizable();//支持窗体拉伸
+        }
+
+        private void showPowBox(object obj)
+        {
+            PowSystem powWnd = new PowSystem();
+            powWnd.Owner = this;
+            powWnd.Show();
         }
 
         private void DisplayCptRelation(Tuple<string, List<OriginCell>> obj)

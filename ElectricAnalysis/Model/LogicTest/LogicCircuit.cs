@@ -23,8 +23,10 @@ namespace ElectricAnalysis.Model.LogicTest
         private List<INotifyComponentChanged> circuit;
         private List<LogicCircuit> additional = new List<LogicCircuit>();
         private TNode cf;
-        private ISet<string> openContacts = new HashSet<string>();//常闭的触点
+        private ISet<string> openContacts = new HashSet<string>();//常开的触点
+        private ISet<string> closeContacts = new HashSet<string>();//常闭的触点
         private ISet<INotifyComponentChanged> components = new HashSet<INotifyComponentChanged>();//所有的被测试元件
+        private ISet<string> coils = new HashSet<string>();//包含的得电线圈
         private List<string> pows;//条件支路的加电点
         private string pow;//被测支路的加电点
         public ISet<INotifyComponentChanged> Components
@@ -39,9 +41,18 @@ namespace ElectricAnalysis.Model.LogicTest
         {
             get { return openContacts; }
         }
+        public ISet<string> CloseContacts
+        {
+            get { return closeContacts; }
+        }
         public string Pow
         {
             get { return pow; }
+        }
+        public ISet<string> Coils
+        {
+            get { return coils; }
+            set { coils = value; }
         }
         public List<string> Pows
         {
@@ -68,6 +79,8 @@ namespace ElectricAnalysis.Model.LogicTest
             {
                 if(info.CptType == ViewModel.ComponentType.ContactOpen)
                     openContacts.Add(info.getName());
+                if (info.CptType == ViewModel.ComponentType.ContactClose)
+                    closeContacts.Add(info.getName());
             }
         }
         /// <summary>

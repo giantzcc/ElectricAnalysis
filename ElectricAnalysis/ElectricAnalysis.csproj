@@ -152,6 +152,7 @@
     <Compile Include="ViewModel\TreeViewItemViewModel\GndTestGenerator.cs" />
     <Compile Include="ViewModel\TreeViewItemViewModel\GraphGenerator.cs" />
     <Compile Include="ViewModel\TreeViewItemViewModel\GraphType.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel\HandShake.cs" />
     <Compile Include="ViewModel\TreeViewItemViewModel\IndicatorLibDisplay.cs" />
     <Compile Include="ViewModel\TreeViewItemViewModel\Itemvm.cs" />
     <Compile Include="ViewModel\TreeViewItemViewModel\LinkerCfg.cs" />

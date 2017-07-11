@@ -49,7 +49,9 @@ namespace ElectricAnalysis.Model.LogicTest
                 {
                     foreach (var br in cps)
                     {
-                        if (cirt != br && !left.Contains(br) && br.Components.All(p => cirt.Components.Contains(p)))
+                        if (cirt != br && !left.Contains(br) 
+                            && br.Components.All(p => cirt.Components.Contains(p)) 
+                            && br.CloseContacts.All(p=>!cirt.Coils.Contains(p)))
                         {
                             cirt.Additional.Add(br);
                             cirt.Additional.AddRange(br.Additional);
@@ -149,6 +151,7 @@ namespace ElectricAnalysis.Model.LogicTest
                     cirt.saveTestComponents(sim.VccConductRoutes);
                     cirt.saveTestComponents(sim.CfConductRoutes);
                     cirt.Pows = pows;
+                    cirt.Coils = sim.getPowCoils();
                 }
             }
             catch (SimulationLogicException e)

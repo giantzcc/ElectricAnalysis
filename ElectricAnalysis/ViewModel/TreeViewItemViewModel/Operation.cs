@@ -14,6 +14,7 @@ namespace ElectricAnalysis.ViewModel.TreeViewItemViewModel
         public Operation(Itemvm parent)
             : base("命令", null, "/Image/download.png", parent)
         {
+            base.Itemvms.Add(new HandShake(this));
             base.Itemvms.Add(new GndTestGenerator(this));
             base.Itemvms.Add(new VccTestGenerator(this));
             base.Itemvms.Add(new NormalTestGenerator(this));

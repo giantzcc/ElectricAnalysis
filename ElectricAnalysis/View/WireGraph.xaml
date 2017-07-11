@@ -9,7 +9,7 @@
             <TextBlock Text="[搜索]" FontWeight="Bold" FontSize="15"/>
             <TextBlock Text="节点名：" Margin="10,0,0,0" FontWeight="Bold" FontSize="15"/>
             <ComboBox IsEditable="True" Margin="0,-2.5,0,0" x:Name="SearchList" MinWidth="100" FontSize="13" VerticalAlignment="Center"
-                     SelectionChanged="SearchList_SelectionChanged"/>
+                     SelectionChanged="SearchList_SelectionChanged" SelectedIndex="0"/>
             <Button Margin="5,-2.5,5,0" Content="Next" FontSize="13" VerticalAlignment="Center" Click="Button_Click"/>
         </StackPanel>
         <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="0,25,0,0" x:Name="scroll">
